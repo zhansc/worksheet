@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T03:17:11.208Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gZcdEUXyvdpJbQZimGe-" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T03:17:27.858Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OZ-fzw9loY_fp1M-F4qO" version="20.4.2" type="github">
   <diagram id="CSHMHOhT1F40CPSZBinU" name="第 1 页">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="330" y="310" width="340" height="380" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="720" width="640" height="320" as="geometry" />
+          <mxGeometry x="70" y="800" width="640" height="320" as="geometry" />
         </mxCell>
         <mxCell id="b52GCULrHhmh10Wu_USz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dLf7UNA71OGZmiSOI_5H-2" target="b52GCULrHhmh10Wu_USz-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -25,16 +25,16 @@
           <mxGeometry x="85.1" y="200" width="19.8" height="43.199999999999996" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-10" value="AuthManageService" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-12" value="ScanLoginService" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="852.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="932.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-13" value="ThirdLoginService" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-42" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;AbstractLoginService&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="841" width="140" height="79" as="geometry" />
+          <mxGeometry x="340" y="921" width="140" height="79" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-45" value="getVerifyCode()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dLf7UNA71OGZmiSOI_5H-42" vertex="1">
           <mxGeometry y="29" width="140" height="25" as="geometry" />
@@ -52,10 +52,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-51" value="MSS登录接口抽象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="730" width="120" height="30" as="geometry" />
+          <mxGeometry x="80" y="810" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-57" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;LoginService&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="840.5" width="140" height="79" as="geometry" />
+          <mxGeometry x="540" y="920.5" width="140" height="79" as="geometry" />
         </mxCell>
         <mxCell id="dLf7UNA71OGZmiSOI_5H-58" value="login()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="dLf7UNA71OGZmiSOI_5H-57" vertex="1">
           <mxGeometry y="29" width="140" height="25" as="geometry" />
