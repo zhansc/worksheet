@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T06:09:04.747Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LpfbJNyMiE24p6yzNxJ-" version="20.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T06:11:54.034Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="voKufXVC6UWwYQPpfSkX" version="20.4.2" type="github">
   <diagram id="CSHMHOhT1F40CPSZBinU" name="第 1 页">
     <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W6JuPS5p_Wff2jWadVtR-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="21.6" width="1160" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="W6JuPS5p_Wff2jWadVtR-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="310" width="340" height="380" as="geometry" />
         </mxCell>
@@ -181,8 +184,14 @@
         <mxCell id="W6JuPS5p_Wff2jWadVtR-40" value="登录获取token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="60" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="W6JuPS5p_Wff2jWadVtR-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W6JuPS5p_Wff2jWadVtR-42" target="W6JuPS5p_Wff2jWadVtR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W6JuPS5p_Wff2jWadVtR-42" value="删除Redis中的验证码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6JuPS5p_Wff2jWadVtR-46" value="uaa-soa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="30" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
