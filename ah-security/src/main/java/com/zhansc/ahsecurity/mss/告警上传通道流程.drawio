@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T03:10:10.691Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ffXFffewO_DE63Ed1ULX" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T07:06:15.749Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ADVarPq-UmJxhsoRIB2A" version="20.5.1" type="github">
   <diagram id="X0-Q3UgyOkLvdQDbUND6" name="第 1 页">
-    <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1304" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="840" width="950" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="880" width="415" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1240" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="300" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="2W0OFrPBYEMKjF1ASu4q-1" value="告警上传通道流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="210" y="60" width="450" height="600" as="geometry" />
         </mxCell>
@@ -30,6 +42,108 @@
         </mxCell>
         <mxCell id="2W0OFrPBYEMKjF1ASu4q-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-12" value="云通API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="910" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-14" value="云通API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="910" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-16" target="2W0OFrPBYEMKjF1ASu4q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-16" target="2W0OFrPBYEMKjF1ASu4q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-16" value="MSS网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="990" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-19" value="下沙节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-20" value="防火墙（玄武盾web防护）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1080" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-23" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;curved=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-23" target="2W0OFrPBYEMKjF1ASu4q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-30" value="隧道" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;dashed=1;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-26" target="2W0OFrPBYEMKjF1ASu4q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-26" value="安全原子能力/WEB服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1350" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-33" value="Agent数据上报/内到外的消息转发" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-29" target="2W0OFrPBYEMKjF1ASu4q-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-60" value="加密隧道" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.521;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;dashed=1;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-29" target="2W0OFrPBYEMKjF1ASu4q-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-29" value="云通Agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-32" value="客户的机房" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1250" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1140" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-35" value="云通DNS服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-39" value="解析websaas.cn域名到隧道/网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1170" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-40" value="云通Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="920" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-44" value="云通Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="950" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-45" value="云通Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="890" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-47" target="2W0OFrPBYEMKjF1ASu4q-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-49" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-47" target="2W0OFrPBYEMKjF1ASu4q-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-47" target="2W0OFrPBYEMKjF1ASu4q-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-47" value="keepalived" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="1030" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-51" value="华为云节点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="880" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-54" value="42380端口" style="endArrow=classic;startArrow=classic;html=1;rounded=0;curved=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-40" target="2W0OFrPBYEMKjF1ASu4q-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1070" as="sourcePoint" />
+            <mxPoint x="620" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-55" value="42380端口" style="endArrow=classic;startArrow=classic;html=1;rounded=0;curved=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-45" target="2W0OFrPBYEMKjF1ASu4q-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1070" as="sourcePoint" />
+            <mxPoint x="620" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-56" value="42380端口数据同步" style="endArrow=classic;startArrow=classic;html=1;rounded=0;curved=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-40" target="2W0OFrPBYEMKjF1ASu4q-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="1070" as="sourcePoint" />
+            <mxPoint x="620" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;elbow=vertical;" edge="1" parent="1" source="2W0OFrPBYEMKjF1ASu4q-59" target="2W0OFrPBYEMKjF1ASu4q-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2W0OFrPBYEMKjF1ASu4q-59" value="隧道/网关（对外开放端口15000~25000）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1110" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
