@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T02:14:29.444Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nm_wsw_qP7FVY4xQHDVn" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T02:15:27.494Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="x_z-yzVjxgp1Lvlb2ZKV" version="20.5.1" type="github">
   <diagram id="CSHMHOhT1F40CPSZBinU" name="第 1 页">
     <mxGraphModel dx="1935" dy="1619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -227,6 +227,12 @@
         </mxCell>
         <mxCell id="937aJtxzMhDiE7O-TSph-17" value="登录获取token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="937aJtxzMhDiE7O-TSph-26" value="账号密码登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="937aJtxzMhDiE7O-TSph-27" value="扫码登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
