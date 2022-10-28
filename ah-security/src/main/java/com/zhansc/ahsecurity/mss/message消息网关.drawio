@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T07:36:02.270Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OIw6R_GNO0ZDiGRiSuQY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T07:42:47.019Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="eUxG6MsSYUwWLVHdk0xP" version="20.5.1" type="github">
   <diagram id="_SCIKSvTVZAReXezCKt8" name="第 1 页">
     <mxGraphModel dx="2300" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,6 +247,9 @@
         </mxCell>
         <mxCell id="I1Czxmr3QRIqjWYr_f1q-67" value="下沙机房" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="31" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I1Czxmr3QRIqjWYr_f1q-72" value="&lt;h1&gt;middle-service&lt;/h1&gt;&lt;p&gt;middle-api&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;sdk接口暴露&lt;br&gt;&lt;/p&gt;&lt;p&gt;middle-core&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;鉴权、参数组装、回调处理&lt;br&gt;&lt;/p&gt;&lt;p&gt;middle-common&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;token生成、校验、消息加解密、业务标识解析等&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1" y="1651" width="189" height="216" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
