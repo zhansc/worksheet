@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-28T07:34:38.881Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0_C66e0ftFF7_MavPa65" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-28T07:35:33.990Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="w8Gm28l4HFSoiiKn7Krs" version="20.5.1" type="github">
   <diagram id="_SCIKSvTVZAReXezCKt8" name="第 1 页">
     <mxGraphModel dx="2300" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,17 +139,11 @@
         <mxCell id="I1Czxmr3QRIqjWYr_f1q-36" value="Mq" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="42" y="725" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I1Czxmr3QRIqjWYr_f1q-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="I1Czxmr3QRIqjWYr_f1q-39" target="I1Czxmr3QRIqjWYr_f1q-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1234" y="181" />
-              <mxPoint x="1238" y="181" />
-              <mxPoint x="1238" y="270" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="I1Czxmr3QRIqjWYr_f1q-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I1Czxmr3QRIqjWYr_f1q-39" target="I1Czxmr3QRIqjWYr_f1q-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I1Czxmr3QRIqjWYr_f1q-38" value="回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I1Czxmr3QRIqjWYr_f1q-37">
-          <mxGeometry x="-0.0824" y="-4" relative="1" as="geometry">
+        <mxCell id="I1Czxmr3QRIqjWYr_f1q-70" value="回调callback" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I1Czxmr3QRIqjWYr_f1q-69">
+          <mxGeometry x="0.1447" y="-8" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
