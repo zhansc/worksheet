@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ah-security/ah-security.iml" filepath="$PROJECT_DIR$/ah-security/ah-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daisy/daisy.iml" filepath="$PROJECT_DIR$/daisy/daisy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/worksheet.iml" filepath="$PROJECT_DIR$/.idea/worksheet.iml" />
     </modules>
   </component>
