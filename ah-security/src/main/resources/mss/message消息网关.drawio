@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T01:33:53.868Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AIJh6Q7u6Qs1bUMQEjGa" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T06:15:52.228Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HVFFHC637lsiepLxWUF5" version="20.5.1" type="github">
   <diagram id="_SCIKSvTVZAReXezCKt8" name="第 1 页">
-    <mxGraphModel dx="2131" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5851" dy="1613" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -600,6 +600,27 @@
             <mxPoint x="-643.5" y="2963" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-4" value="Http回调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="QzDt5GlHheCpSvWXRULx-1" target="QzDt5GlHheCpSvWXRULx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-1" value="&lt;font style=&quot;--darkreader-inline-color:#d1cfcc;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#000000&quot;&gt;外网&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-971" y="1984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="QzDt5GlHheCpSvWXRULx-3" target="QzDt5GlHheCpSvWXRULx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-3" value="&lt;font style=&quot;--darkreader-inline-color:#b5b1ab;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#d1cfcc&quot;&gt;内网client&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-1189" y="1984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-8" value="监听MQ消息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;dashed=1;" edge="1" parent="1" source="QzDt5GlHheCpSvWXRULx-5" target="QzDt5GlHheCpSvWXRULx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-5" value="&lt;font style=&quot;--darkreader-inline-color:#b5b1ab;&quot; data-darkreader-inline-color=&quot;&quot; color=&quot;#d1cfcc&quot;&gt;MQ&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="1984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QzDt5GlHheCpSvWXRULx-7" value="业务系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="1856" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
