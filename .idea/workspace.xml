@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e19fcac6-1378-4703-8774-57125bb90741" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/worksheet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/worksheet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daisy/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/daisy/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -150,6 +152,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\youzan\IdeaProjects\worksheet" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ah-security/src/main/resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="AhSecurityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -190,7 +195,7 @@
       <workItem from="1667051218875" duration="225000" />
       <workItem from="1667051453234" duration="66000" />
       <workItem from="1667051528342" duration="82000" />
-      <workItem from="1667052507884" duration="346000" />
+      <workItem from="1667052507884" duration="991000" />
     </task>
     <servers />
   </component>
