@@ -10,8 +10,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ah-security" target="1.5" />
-      <module name="worksheet" target="1.5" />
+      <module name="ah-security" target="1.8" />
+      <module name="worksheet" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
