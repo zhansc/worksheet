@@ -1,10 +1,10 @@
-package com.zhansc.ahsecurity;
+package cn.com.zhansc.daisy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AhSecurityApplicationTests {
+class DaisyApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,0 +1,14 @@
+my:
+  enum:
+    alarmMap:
+      alarmId: 告警ID
+      alarmDesc: 告警描述
+      srcAddress: 目标地址
+
+    incidentList:
+      - lkjl12l89
+      - 水中花
+      - 我看见泪眼中滴我
+
+    yake:
+      address: 福建

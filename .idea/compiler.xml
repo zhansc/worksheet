@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ah-security" />
+        <module name="daisy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ah-security" target="1.8" />
+      <module name="daisy" target="1.8" />
       <module name="worksheet" target="1.8" />
     </bytecodeTargetLevel>
   </component>
