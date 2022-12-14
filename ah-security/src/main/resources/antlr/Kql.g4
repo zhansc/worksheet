@@ -13,6 +13,7 @@ expression
  | left=expression op=range right='[' expression (',' expression)* ']'      #rangeExpression
  | left=expression op=exist                                                 #existExpression
  | bool                                                                     #boolExpression
+ | nihao                                                                     #nihaoExpression
  | IDENTIFIER                                                               #identifierExpression
  | DECIMAL                                                                  #decimalExpression
  ;
@@ -37,11 +38,16 @@ bool
  : TRUE | FALSE
  ;
 
+nihao
+ : NIHAO
+ ;
+
 // 词法分析器的规则必须用大写字母开头
 // 定义语法符号INT，它由一个或多个数字组成
 AND        : 'and' | 'AND' ;
 OR         : 'OR' ;
 NOT        : 'not' | 'NOT';
+NIHAO       : 'nihao' | 'NIHAO' ;
 TRUE       : 'true' | 'TRUE' ;
 FALSE      : 'false' | 'FALSE' ;
 GT         : '>' ;

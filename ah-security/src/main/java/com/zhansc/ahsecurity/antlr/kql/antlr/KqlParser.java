@@ -19,14 +19,14 @@ public class KqlParser extends Parser {
 	public static final int
 		T__0=1, T__1=2, T__2=3, AND=4, OR=5, NOT=6, TRUE=7, FALSE=8, GT=9, GE=10, 
 		LT=11, LE=12, EQ=13, NOTEQ=14, IN=15, NOTIN=16, EXIST=17, NOTEXIST=18, 
-		CONTAINS=19, NOTCONTAINS=20, LPAREN=21, RPAREN=22, DECIMAL=23, IDENTIFIER=24, 
-		WS=25;
+		CONTAINS=19, NOTCONTAINS=20, LPAREN=21, RPAREN=22, DECIMAL=23, IDENTIFIER=24,
+		WS=25, NIHAO=26;
 	public static final int
 		RULE_parse = 0, RULE_expression = 1, RULE_comparator = 2, RULE_binary = 3, 
-		RULE_range = 4, RULE_exist = 5, RULE_bool = 6;
+		RULE_range = 4, RULE_exist = 5, RULE_bool = 6, RULE_nihao = 7;
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"parse", "expression", "comparator", "binary", "range", "exist", "bool"
+			"parse", "expression", "comparator", "binary", "range", "exist", "bool", "nihao"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
@@ -221,6 +221,26 @@ public class KqlParser extends Parser {
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
 			if ( visitor instanceof KqlVisitor ) return ((KqlVisitor<? extends T>)visitor).visitBoolExpression(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	@SuppressWarnings("CheckReturnValue")
+	public static class NihaoExpressionContext extends ExpressionContext {
+		public NihaoContext nihao() {
+			return getRuleContext(NihaoContext.class,0);
+		}
+		public NihaoExpressionContext(ExpressionContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof KqlListener ) ((KqlListener)listener).enterNihaoExpression(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof KqlListener ) ((KqlListener)listener).exitNihaoExpression(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof KqlVisitor ) return ((KqlVisitor<? extends T>)visitor).visitNihaoExpression(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -421,6 +441,15 @@ public class KqlParser extends Parser {
 				_prevctx = _localctx;
 				setState(24);
 				bool();
+				}
+				break;
+			case NIHAO:
+				{
+				_localctx = new NihaoExpressionContext(_localctx);
+				_ctx = _localctx;
+				_prevctx = _localctx;
+				setState(26);
+				nihao();
 				}
 				break;
 			case IDENTIFIER:
@@ -846,9 +875,61 @@ public class KqlParser extends Parser {
 		}
 	}
 
+	@SuppressWarnings("CheckReturnValue")
+	public static class NihaoContext extends ParserRuleContext {
+		public TerminalNode NIHAO() { return getToken(KqlParser.NIHAO, 0); }
+		public NihaoContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_nihao; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof KqlListener ) ((KqlListener)listener).enterNihao(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof KqlListener ) ((KqlListener)listener).exitNihao(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof KqlVisitor ) return ((KqlVisitor<? extends T>)visitor).visitNihao(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+
 	public final BoolContext bool() throws RecognitionException {
 		BoolContext _localctx = new BoolContext(_ctx, getState());
 		enterRule(_localctx, 12, RULE_bool);
+		int _la;
+		try {
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(74);
+			_la = _input.LA(1);
+			if ( !(_la==TRUE || _la==FALSE) ) {
+			_errHandler.recoverInline(this);
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
+				consume();
+			}
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	public final NihaoContext nihao() throws RecognitionException {
+		NihaoContext _localctx = new NihaoContext(_ctx, getState());
+		enterRule(_localctx, 12, RULE_nihao);
 		int _la;
 		try {
 			enterOuterAlt(_localctx, 1);

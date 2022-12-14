@@ -6,6 +6,8 @@ import com.zhansc.ahsecurity.antlr.kql.antlr.KqlParser;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -22,6 +24,10 @@ public class KqlCustomVisitor extends KqlBaseVisitor<Map<String, String>> {
 
     @Override
     public Map<String, String> visitBinaryExpression(KqlParser.BinaryExpressionContext ctx) {
+        List<Map<String, String>> list = new ArrayList<>();
+        if (ctx.binary() != null) {
+            list.add(visit(ctx.binary()));
+        }
         return super.visitBinaryExpression(ctx);
     }
 
@@ -32,7 +38,13 @@ public class KqlCustomVisitor extends KqlBaseVisitor<Map<String, String>> {
 
     @Override
     public Map<String, String> visitBoolExpression(KqlParser.BoolExpressionContext ctx) {
+        System.out.println(ctx.getText());
         return super.visitBoolExpression(ctx);
+    }
+
+    @Override
+    public Map<String, String> visitNihaoExpression(KqlParser.NihaoExpressionContext ctx) {
+        return super.visitNihaoExpression(ctx);
     }
 
     @Override
@@ -92,8 +104,8 @@ public class KqlCustomVisitor extends KqlBaseVisitor<Map<String, String>> {
 
     public static void main(String[] args) {
         String kql = "alarm == false";
-        String kql1 = "alarm != true AND desc in [hao]";
-        KqlLexer lexer = new KqlLexer(CharStreams.fromString(kql));
+        String kql1 = "alarm != true AND desc in [hao] a contains \"aa\" b >= 12";
+        KqlLexer lexer = new KqlLexer(CharStreams.fromString(kql1));
         KqlParser parser = new KqlParser(new CommonTokenStream(lexer));
         KqlCustomVisitor visitor = new KqlCustomVisitor();
 

@@ -54,6 +54,18 @@ public interface KqlListener extends ParseTreeListener {
 	 */
 	void exitBoolExpression(KqlParser.BoolExpressionContext ctx);
 	/**
+	 * Enter a parse tree produced by the {@code boolExpression}
+	 * labeled alternative in {@link KqlParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterNihaoExpression(KqlParser.NihaoExpressionContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code boolExpression}
+	 * labeled alternative in {@link KqlParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitNihaoExpression(KqlParser.NihaoExpressionContext ctx);
+	/**
 	 * Enter a parse tree produced by the {@code identifierExpression}
 	 * labeled alternative in {@link KqlParser#expression}.
 	 * @param ctx the parse tree
@@ -175,4 +187,14 @@ public interface KqlListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitBool(KqlParser.BoolContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link KqlParser#nihao}.
+	 * @param ctx the parse tree
+	 */
+	void enterNihao(KqlParser.NihaoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link KqlParser#nihao}.
+	 * @param ctx the parse tree
+	 */
+	void exitNihao(KqlParser.NihaoContext ctx);
 }

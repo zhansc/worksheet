@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-alibaba-sentinel:unknown">
+    <CLASSES>
+      <root url="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/springframework/cloud/spring-cloud-starter-alibaba-sentinel/unknown/spring-cloud-starter-alibaba-sentinel-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/springframework/cloud/spring-cloud-starter-alibaba-sentinel/unknown/spring-cloud-starter-alibaba-sentinel-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/MySoft/apache-maven-3.5.3/.m2/repository/org/springframework/cloud/spring-cloud-starter-alibaba-sentinel/unknown/spring-cloud-starter-alibaba-sentinel-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

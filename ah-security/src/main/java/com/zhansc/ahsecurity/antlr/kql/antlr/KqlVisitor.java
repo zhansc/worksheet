@@ -38,6 +38,13 @@ public interface KqlVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitBoolExpression(KqlParser.BoolExpressionContext ctx);
 	/**
+	 * Visit a parse tree produced by the {@code nihaoExpression}
+	 * labeled alternative in {@link KqlParser#expression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitNihaoExpression(KqlParser.NihaoExpressionContext ctx);
+	/**
 	 * Visit a parse tree produced by the {@code identifierExpression}
 	 * labeled alternative in {@link KqlParser#expression}.
 	 * @param ctx the parse tree
@@ -109,4 +116,10 @@ public interface KqlVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitBool(KqlParser.BoolContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link KqlParser#nihao}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitNihao(KqlParser.NihaoContext ctx);
 }

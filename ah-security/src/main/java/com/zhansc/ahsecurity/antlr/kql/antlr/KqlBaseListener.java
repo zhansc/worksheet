@@ -65,6 +65,18 @@ public class KqlBaseListener implements KqlListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterNihaoExpression(KqlParser.NihaoExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitNihaoExpression(KqlParser.NihaoExpressionContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterIdentifierExpression(KqlParser.IdentifierExpressionContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -192,6 +204,16 @@ public class KqlBaseListener implements KqlListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitBool(KqlParser.BoolContext ctx) { }
+
+	@Override
+	public void enterNihao(KqlParser.NihaoContext ctx) {
+
+	}
+
+	@Override
+	public void exitNihao(KqlParser.NihaoContext ctx) {
+
+	}
 
 	/**
 	 * {@inheritDoc}
